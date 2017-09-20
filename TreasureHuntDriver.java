@@ -18,8 +18,6 @@ public class TreasureHuntDriver implements Directions
         
         karel.turnOff();  
     } 
-    
-    
     static {
         int world = (int)(Math.random()*3+1);
         World.reset(); 
