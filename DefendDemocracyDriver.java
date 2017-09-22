@@ -1,6 +1,6 @@
 
 /**
-   @Author:
+   @Author: 
       Date:
    Teacher: Appel
   */
@@ -11,7 +11,7 @@ public class DefendDemocracyDriver implements Directions
 {
     public static void main(String args[])  {
         DemocracyBot karel = new DemocracyBot(3, 1, East, 0);  
-        karel.fixBallots();
+        karel.fixBallots(10);
         karel.turnOff();  
     } 
 
@@ -21,7 +21,7 @@ public class DefendDemocracyDriver implements Directions
         World.setBeeperColor(Color.black);
         World.setStreetColor(Color.gray);
         World.setNeutroniumColor(Color.black);
-        World.setDelay(10);  
+        World.setDelay(20);  
         World.setVisible(true);
     }
 }
